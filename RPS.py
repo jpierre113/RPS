@@ -1,19 +1,17 @@
-player_score = 0
-computer_score = 0
+# player_score = 0
+# computer_score = 0
 
 
-choice = input("Rock, Paper, Scissors?")
-print(choice)
+print("Rock Paper Scissors Game")
+print("Select your options: 1 for Rock, 2 for Paper and 3 for Scissors")
+choice = int(input())
+if choice == 1:
+    print("Rock has been selected")
+elif choice == 2:
+    print("Paper has been selected")
+else:
+    print("Scissors has been selected")
 
-while player_score and computer_score <= 3:
-    if choice == "rock":
-        print("Rock")
-    elif choice == "paper":
-        print("Paper")
-    elif choice == "scissors":
-        print("Scissors")
-    else:
-        print("Select an option")
 
 
 
